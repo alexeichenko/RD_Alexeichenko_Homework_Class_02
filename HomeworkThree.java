@@ -1,5 +1,3 @@
-//import java.util.Scanner;
-
 public class HomeworkThree {
     public static void main(String[] args) {
         int a = 10;
@@ -19,12 +17,5 @@ public class HomeworkThree {
 //    unboxing
         Integer value = 100;
         System.out.println(value + 15);
-
-// increment та decrement повторюю для себе
-//    increment
-        System.out.println(++a);
-//    decrement
-        System.out.println(--b);
-//        Scanner scanner = new Scanner(System.in);
     }
 }
