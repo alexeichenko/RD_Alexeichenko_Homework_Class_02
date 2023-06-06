@@ -6,6 +6,7 @@ public class HomeworkThree {
         System.out.println(b-a);
         System.out.println(b/a);
         System.out.println(a*b);
+        System.out.println(a%b);
 // autoboxing та unboxing - поки що важкі для розуміння, не впевнений, що роблю правильно
 //    autoboxing
         Short sh = 1;
