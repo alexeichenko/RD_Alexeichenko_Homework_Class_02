@@ -28,11 +28,13 @@ public class Main {
         studentLinkedList.add(andrii);
         studentLinkedList.add(nick);
         System.out.println(studentLinkedList);
-        // Реалізація через масив, доданий в колекцію ArrayList
+        // Реалізація через масив, доданий в колекцію ArrayList:
+        // Створення масиву:
         Student[] studentsArray = new Student[3];
         studentsArray[0] = oleksiy;
         studentsArray[1] = andrii;
         studentsArray[2] = nick;
+        // Створення колекції:
         ArrayList<Student> studentsList = new ArrayList<>();
         for (Student student : studentsArray) {
             studentsList.add(student);
